@@ -110,7 +110,7 @@ void loop() {
   if(distance_front<=20 && distance_right<20){
     Stop();
     delay(1000);
-    right();
+    left();
     delay(800);
    
   }
